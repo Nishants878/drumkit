@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
+body {
+  /* background: url('./sounds/197.jpg') no-repeat; */
+  background-size: 100vw 100vh;
+  text-align:center;
+  color: #555;
+  background: #ecf0f3;
+}
+.logo {
+  font-family: Dancing Script;
+  font-size: 5em;
+  font-weight: bold;
+  margin-top: 10%;
+  color: black;
+}
+.drums {
+    background: rgba(220,220,220);
+  display: inline-block;
+  color: royalblue;
+  display: flex;
+  justify-content: center;
+  box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff
+}
+.drum {
+    background: #ecf0f3;
+  border: 1px solid #fff;
+  border-radius: 10%;
+  padding: 15px 20px;
+  margin: 10px;
+  align-self: center;
+  box-shadow: inset 8px 8px 8px #cbced1,
+  inset -8px -8px 8px #ffffff; 
+}
+.drum kbd {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    font-size: 2vw;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    line-height: 100vh;
+    mix-blend-mode: screen;
+}
